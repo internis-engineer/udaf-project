@@ -1,0 +1,83 @@
+body{
+	margin:0;
+	
+}
+.page-404{
+	font-family: 'Montserrat', sans-serif;
+	padding: 10% 0;
+}
+.page-404 .container{
+	width: 950px;
+}
+.main{
+	text-align: center;
+}
+.main .item{
+	display: inline-block;
+}
+.text-404{
+	font-size: 200px;
+	color: #f1ba4f;
+	text-transform: uppercase;
+	margin: 0;
+	
+}
+.main-content{
+	margin-top: 53px;
+}
+.main-content h3{
+	margin: 0;
+	font-size: 60px;
+	text-transform: uppercase;
+	color: #898989;
+}
+.mes-content{
+	font-size: 24px;
+	color: #666;
+	
+}
+a.button{
+	text-decoration: none;
+	color: #f1ba4f;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 24px;
+	&:hover{
+		text-decoration: none;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	#yt_wrapper.page-404 .container .comback .text-home:after{
+		top: 95px;
+		right: -200px;
+	}
+	.page-404 .container{
+		width: 750px;
+	}
+}
+@media (max-width: 767px){
+	.text-404{
+		font-size: 130px;
+	}
+	.main-content{
+		margin-top: 0;
+	}
+	#yt_wrapper.page-404 .container{
+		padding: 80px 30px;
+		overflow: hidden;
+	}
+	#yt_wrapper.page-404 .container .comback .button{
+		margin-top: 90px;
+		display: inline-block;
+	}
+	#yt_wrapper.page-404 .container .comback .text-home{
+		display: none;
+	}
+	#yt_wrapper.page-404 .container .mess-error{
+		margin: 0 0 190px;
+	}
+	#yt_wrapper.page-404 .container .comback .text-home::after{display: none;}
+	.page-404 .container{
+		width: 100%;
+	}
+}

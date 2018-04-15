@@ -1,0 +1,35 @@
+#k2Container.itemListView .itemList .itemContainer .catItemView.listing .catItemImageBlock img {
+  width: 100%;
+}
+#k2Container.itemListView .itemList .itemContainer .catItemView.grid .catItemImageBlock img {
+  width: 100%;
+}
+.module.our-blog .k2ItemsBlock .list-item .item .item-img .moduleItemImage img {
+  width: 100%;
+}
+.rtl .wellcome,
+.rtl .signature {
+  font-family: arial;
+}
+.rtl .yt-list.type-disc li:before {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+.rtl .module.slider {
+  direction: ltr;
+}
+.rtl .module.slider .carousel-caption {
+  direction: rtl;
+}
+.rtl #yt_menuposition ul.navirtl > li.level1 {
+  direction: ltr;
+}
+.rtl #yt_menuposition ul.navirtl > li.level1 a.item-link {
+  direction: rtl;
+}
+.rtl #yt_menuposition ul.navirtl > li.level1 li.level2 {
+  direction: rtl;
+}
+.rtl .module.best-sale .modcontent .vmproduct.best-sale .width100.center .spacer {
+  width: 99%;
+}

@@ -1,0 +1,1627 @@
+/*******************************************
+***          YT Framework: css          ***
+*******************************************/
+
+/* Medium devices Desktops  
+// ------------------*/
+@media (min-width: 980px) and (max-width: 1199px) {
+	
+}
+
+/* Small devices Tablets	
+// ------------------*/
+@media (min-width: 768px) and (max-width: 979px) {
+	
+}
+
+/* Extra small devices Phones
+// ------------------*/
+@media (max-width: 767px){
+	
+}
+
+
+
+.menutop ul li+li{
+	border-left: 1px solid #fff;
+	padding: 0 10px !important;
+}
+
+
+
+#job_detail_block .adsmanager-infos .span12 span.fname, #yt_component .cbPoweredBy, #solidres .reservation_asset_item .powered, .vehiclemanagercars + div, .componentheading .basictable, #jsautoz-copyright, .acymailing_footer{display: none;}
+
+.login-greeting{
+	margin-bottom: 10px;
+	width: 150px;
+}
+
+#yt_footer_top{padding: 0 10px;}
+
+
+
+#yt_wrapper #content .login_page div.container div.row div#content_main{
+
+	margin: 0 auto 17px auto;
+
+	width: 400px;
+
+	float: none;
+
+	text-align: center;
+
+	border: 1px solid #ccc;
+
+	padding: 20px 0;
+
+}
+
+
+
+.sj-flat-menu li .fm-item .fm-link{
+
+	margin-right: 15px !important;
+
+}
+
+
+
+.languages-top{
+
+	position: absolute;
+
+	top: -38px;
+
+	right: 39%;
+
+}
+
+
+
+#system-message .alert h4, #system-message-container #system-message .alert-notice, .juloawrapper .componentheading, #yt_menu.block div.container div.row div#content_top2, #yt_component .jd-item-page div.jd_footer{display: none !important;}
+
+#yt_mainmenu{width: 100% !important}
+
+
+ul#meganavigator div.mega-modulemenu_cat.moduletablemenu_cat div.mega-module-content div.row.list-location div.col-sm-4{width: 50%}
+
+.intro-pic {
+    display: inline-block;
+    width: 18%;
+    height: auto;
+    float: left;
+}
+
+.adsmanager_table_description .desc {
+    float: left;
+    height: 104px;
+    padding-left: 15px;
+	width: 82%;
+}
+
+.adsmanager_table_description .trcategory_21 .desc,
+.adsmanager_table_description .trcategory_25 .desc{
+	width: 100%;
+}
+
+.more_fields{
+	height: 20px;
+	margin-bottom: 15px;
+}
+
+.more_fields > div{
+	width: 30%;
+	float: left;
+	height: 20px;
+	overflow: hidden;
+}
+
+.more_fields .fad_price{
+	font-weight: bold;
+}
+
+
+.clr{
+	clear: both;
+	display: none;
+}
+
+.user_connect{
+	height: 110px;
+	width: 240px;
+}
+
+.jobs-cat{
+	padding: 8px;
+}
+
+#login-form .logout-links li.logout-private-messages{
+	width: 22px;
+overflow: hidden;
+height: 24px;
+position: absolute;
+right: 56px;
+top: 0px;
+}
+
+.float-right-header{
+	height: 80px;
+	padding-top: 24px;
+}
+
+
+#yt_header{
+	background: url("../images/header-bg.jpg") repeat-x;
+}
+
+#yt_component .adsmanager-details div#date_bar .deadline_on{
+	text-align: right;
+	background: #ededed;
+	padding-right: 10px;
+}
+
+.juloawrapper .adsmanager-details h2{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.juloawrapper{
+	margin-bottom: 40px;
+	margin-top: 15px;
+}
+
+.jobselected .mostread{border-bottom: 1px dashed #ccc;}
+
+.jobselected .text-center{text-align: left;}
+
+#ste, #job_detail_block{
+	background: #f8f7f8;
+	border: 1px solid #e7e7e7;
+}
+
+#ste{
+	height: 128px;
+	margin-bottom: 40px;
+	padding-left: 8px;
+}
+
+#ste h3{margin-top: 18px;}
+
+#job_detail_block .adsmanager-infos .span12 h2.section-header{
+	margin-top: 20px;
+}
+
+#job_detail_block{
+	padding: 8px 0px 10px 8px;
+}
+#job_detail_block p.mandatory {
+	background: #eee;
+	font-weight: bold;
+}
+
+#system-message-container #system-message .alert{
+	margin: 5px 0 25px !important;
+}
+
+
+.user_connect .login-greeting p{
+	margin: 10px 0 0 0 !important;
+}
+.user_connect #login-form .login-greeting, .user_connect #login-form .logout-button{float: left;}
+
+.user_connect #login-form .login-avatar{float: right;}
+
+.content_job > div{float: left; text-align: center}
+
+.content_job .job_position{padding: 5px; width: 75%}
+.content_job .job_position p{float: left; width: 50%}
+.content_job .job_position p+p{width: 25%}
+.content_job .job_logo .intro-pic{
+	display: block;
+	float: none;
+	margin: 8px auto;
+	width: 80%;
+}
+.content_job .intro-pic {margin: 1%}
+.content_job .job_city, .content_job .job_deadline{width: 15%}
+
+.float-left-jobblock{
+	float: left;
+	margin-right: 20px;
+}
+
+.intro-block{
+	margin: 25px 0 20px 0;
+	background: #f8f8f8;
+	border: 1px solid #e7e7e7;
+	padding: 10px;
+}
+
+#job_detail_block .adsmanager-infos div.span12 .femail{
+	display: inline-block;
+	padding: 10px;
+	background: #3071a9;
+	margin: 25px 0 40px 40%;
+	width: 150px;
+	height: 40px;
+}
+
+#job_detail_block .adsmanager-infos div.span12 .femail a{
+	color: #fff;
+	display: block;
+	text-align: center;
+}
+
+#contact-form{
+	margin-top: 19px;
+}
+
+#contact-form textarea{width: 75%;}
+#contact-form .btn-primary{width: 100px;}
+#contact-form #name,
+#contact-form #email,
+#contact-form #title{
+	background: #eee;
+	width: 40%;
+}
+
+.navi > li > .item-link{
+	padding: 0 10px;
+}
+
+.mandatory_field{
+	color: #ff3500;
+	font-style: italic;
+}
+
+.menutop{
+	width: 350px;
+	height: 23px;
+	overflow: hidden;
+}
+
+.menutop li{
+	float: left;
+	padding: 0 8px;
+	margin: 0 2px;
+}
+
+.menutop li+li{
+	border-left: 1px solid #2a6496;	
+}
+
+.add_ads{
+	position: absolute;
+	bottom: 0;
+	right: 88px;
+}
+
+.add_adds_top a{
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	background: #f0aa09;
+	height: 30px;
+	padding: 4px 8px;
+}
+
+.ext-advertisement{margin-right: 25%;}
+
+.user_connect{
+	position: absolute;
+	right: 25px;
+	top: -15px;
+	height: 75px;
+	overflow: hidden;
+}
+
+#content_top1 .add_ads{
+	position: absolute;
+	bottom: 0;
+}
+
+#add_adds_top a, #job_adds_top a{
+	background: #034e6b;
+	color: white;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	border-radius: 4px;
+}
+
+#add_adds_top a:hover{
+	background: #037bc8;
+	color: #000;
+}
+
+.menutop {
+	position: absolute;
+	top: -37px;
+	right: 0;
+}
+
+#yt_footer_top .menu-footer h3{
+	margin-bottom: 7px;
+}
+
+#yt_footer_top .menu-footer h3::before {
+    background-color: none;
+    width: 0;
+}
+
+#yt_footer_top .menu-footer .modcontent ul li a::before {
+    content: "";
+    float: left;
+    margin-right: 0px;
+}
+
+.menutop ul{
+	background: none;
+	height: 55px;
+	width: 320px;
+	padding: 0;
+	position: absolute;
+	right: 15px;
+}
+
+.menutop ul li{
+	padding: 0 10px;
+}
+
+#yt_header {
+	height: 161px;
+    padding: 40px 0 5px 0;
+}
+
+#yt_header .menutop a,
+#yt_header .menutop a:link,
+#yt_header .menutop a:visited
+{
+    color: #fff;
+}
+
+.adsmanager-details .adsmanager-images a {
+    display: inline-block !important;
+    margin: 10px !important;
+}
+
+#adshome > div.row-fluid{
+	width: 100%;
+}
+
+.newsletter-intro, #ads_intro{
+	background: #e7e7e7;
+	border: 1px solid #ccc;
+	padding: 8px;
+	overflow: hidden;
+}
+
+#yt_component .juloawrapper legend{
+	color: #0381b4;
+	text-transform: uppercase;
+	border-left: 10px solid #0381b4;
+	height: 25px;
+	line-height: 25px;
+	border-bottom: 0;
+	overflow: hidden;
+	padding-left: 15px;
+	margin-bottom: 0;
+}
+
+#ads_intro{
+	height: 175px;
+	margin-top: 10px;	
+}
+
+.newsletter-intro{
+	margin-bottom: 30px;
+	margin-top: 15px;
+}
+
+#ads_intro li{
+	float: left;
+	text-align: center;
+	height: 160px;
+	padding-top: 80px;
+	overflow: hidden;
+	width: 33%;
+}
+
+#acyuserinfo .acy_onefield div.inputVal div.controls label#user_html1-lbl.radio{
+	margin-left: 48px;
+}
+
+#yt_header #yt_logo a {
+	padding: 0;
+}
+
+#yt_menu {
+    background: url("../images/mainmenu_bg.jpg");
+	height: 63px;
+}
+
+#acyuserinfo div#trhtml.acy_onefield{
+	height: 35px;
+	margin-bottom: 30px;
+}
+
+#acyusersubscription label{
+	display: inline-block;
+	width: 55px;
+}
+
+#acyusersubscription input[type="radio"]{
+	margin-left: 1px;
+	position: relative;
+}
+.navi > li.active > a, .navi > li:hover > a{
+	background: #ff7e00;
+}
+
+.navi > li > .item-link.active .menu-title, .navi > li > .item-link:hover .menu-title {
+    color: #000;
+    padding-left: 10px;
+}
+
+.homepage #content_main #yt_component,
+#content_left #left .module{
+	background-color: #f2f2f2;
+}
+
+#content_left #left .juloawrapper{
+	margin: 0;
+}
+
+#content_left #left ul{
+	border: 0;
+	padding-left: 0;
+}
+
+#content_left #left .menu,
+#content_left #left .menu .jobs-cat{
+	border: 0;
+}
+
+#content_left #left .menu li+li,
+#content_left #left .jobs-cat li+li
+{
+	border-top: 1px solid #ccc;
+}
+
+#content_left #left .recentads li+li
+{
+	border-bottom: 1px solid #ccc;
+	height: 30px;
+}
+
+#content_left #left .modcontent li{padding-left: 4px;}
+#content_left #left .modcontent li div{text-align: left;}
+
+#content_left #left .general-ads-cat .modcontent li+li{
+	border-top: 1px dashed #fff;
+}
+
+#content_left #left .general-ads-cat .modcontent li a,
+#content_left #left .general-ads-cat .modcontent li a:link,
+#content_left #left .general-ads-cat .modcontent li a:visited
+{
+	color: #fff;
+}
+
+#content_left #left .general-ads-cat .modcontent li a:hover
+{
+	color: #ff7f00;
+}
+
+#content_left #left ul a
+{
+	display: inline-block;
+	padding-left: 20px;
+}
+
+#content_left #left ul a.recent-ads
+{
+	display: inline-block;
+	padding-left: 10px;
+	float: left;
+	width: 205px;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+}
+
+#content_left #left ul span{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+
+#content_left #left ul .adsmanager-date{
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	width: 37px;
+	overflow: hidden;
+	color: #f58f21;
+	font-style: italic;
+}
+
+
+#content_left #left h3.modtitle{
+	background: #00adef;
+	height: 47px;
+	margin: 0;
+	overflow: hidden;
+	color: white;
+}
+#content_left #left .general-ads-cat h3.modtitle{
+	background: #043345;
+	border: 0;
+}
+
+#content_left #left .general-ads-cat .modcontent{
+	background: #01709b;
+}
+
+.navi > li > .item-link .menu-title{
+	font-size: 16px;
+	text-transform: none;
+}
+#bottom1 .acymailing_module .acymailing_fulldiv form .acymailing_module_form .acymailing_form .inputbox{
+	color: #12c0fc;
+	margin: 0 5px;
+}
+
+#bottom1 .acymailing_module .acymailing_fulldiv form .acymailing_module_form{
+	bottom: -18px;
+	margin: 0 10px 0 0;
+	padding: 10px 30px !important;
+}
+
+#yt_wrapper .com_adsmanager #content_main #yt_component div.juloawrapper div.adsmanager_box_module .adsmanager_inner_box p{margin: 0 3px 10px 7px;}
+
+#yt_footer_top #bottom1 .newsletter{
+	width: 495px;
+	float: left;
+	height: 130px;
+}
+
+#yt_footer_top #bottom1 .contact-infomation,
+#yt_footer_top #bottom7 .module{
+	border: 0;
+	box-shadow: unset;
+}
+
+.acymailing_module .acymailing_fulldiv form .acymailing_module_form{background-color: #01709b;}
+.acymailing_module .acymailing_fulldiv form .acymailing_module_form .acymailing_form .subbutton{background-color: #034e6b;}
+
+#yt_footer_top #bottom1 .contact-infomation{
+	float: left;
+	margin-left: 5%;
+	padding-top: 37px;
+	width: 410px;
+}
+
+#yt_footer_top #bottom1 .contact-infomation .item-info{width: 100%;}
+
+#ads_intro .publications{
+	background: url("../../../images/pictos/add_ads.png") top center;
+	background-repeat: no-repeat; 
+}
+
+#ads_intro .gestion{
+	background: url("../../../images/pictos/favori.png") top center;
+	background-repeat: no-repeat; 
+}
+
+#ads_intro .recherche{
+	background: url("../../../images/pictos/search.png") top center;
+	background-repeat: no-repeat; 
+}
+
+#content_left #left .newsletter-sideblock div.modcontent{
+	background: url(../../../images/pictos/icon_newsletters.png) top center;
+    background-repeat: no-repeat;
+	padding: 70px 3px 0 7px;
+}
+
+#content_left #left .newsletter-sideblock {
+	background: #fff;
+}
+
+#content_left #left .newsletter-sideblock h3{
+	margin-bottom: 10px;
+}
+
+#content_left .newsletter-sideblock div.modcontent p a{
+	display: block;
+	margin: 8px auto;
+	text-align: center;
+	width: 230px;
+}
+
+#content_left .newsletter-sideblock div.modcontent p em{
+	display: block;
+	font-size: 11px;
+	text-align: center;
+}
+
+.login-block{	
+	border: 1px solid #aaa;
+	margin: 40px auto;
+	padding: 20px;
+	text-align: center;
+	width: 330px;
+}
+
+#modlgn-username{
+	margin-bottom: 10px;
+	width: 85%;
+}
+
+#form-login-password .input-prepend{
+	text-align: left;
+	padding-left: 16px;
+	margin-bottom: 12px;
+}
+
+#form-login-remember{	
+	margin-bottom: 8px;
+	text-align: center;	
+	width: 145px;
+}
+
+#form-login-links{
+	margin-top: 10px;
+}
+
+#slideshow > div.search_all{
+	background: url(../../../images/pictos/find_what_you_search.jpg) top center;
+	height: 200px;
+}
+.search_all{
+	padding: 20px 0;
+	margin: 20px 0 30px 0;
+	text-align: center;
+	width: 100%;
+}
+.search_all h3{
+	color: #d0d0d9;
+	background: #fff;
+	opacity: 0.5;
+}
+#slideshow #modsimplesearch-form .adsmanager_search_module{
+	margin: 0 auto;
+	width: 70%;
+}
+
+#slideshow .search_all #modsimplesearch-form input, #slideshow .search_all #modsimplesearch-form select{
+	border: 1px solid #ccc;
+	height: 36px;
+}
+
+#slideshow .search_all #modsimplesearch-form div.adsmanager_search_module > div:first-child{
+	margin-right: 10px;
+	width: 245px;
+}
+
+.radio input[type="radio"]{
+	margin: 0;
+	position: relative;
+	width: 25px;
+}
+
+#header_immo{
+	height: 30px;
+	background: #4c9ed9;
+	color: #eee;
+	line-height: 30px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+#header_immo h4 a, #header_autos h4 a{color: #eee;}
+
+#header_immo h4{
+	float: left;
+	margin: 0;
+	width: auto;
+}
+
+#header_immo p, #header_autos p, .hearder-ad .location{
+	background: url("../../../images/pictos/lieu-glypho.png") center top;
+	background-repeat: no-repeat;
+}
+
+#header_immo p, .hearder-ad .location{
+	color: #eee;
+	margin-bottom: 0;
+	padding-top: 15px;
+	height: 80px;
+	width: auto;
+}
+
+#header_immo .more_fields, #header_immo .more_fields > div{
+	height: 30px;
+}
+
+#header_immo .fad_prixloyer{
+	background: #DEB887;
+	display: inline-block;
+	height: 25px;
+	width: auto;
+	padding: 4px;
+	color: #A52A2A;
+}
+
+#yt_component .juloawrapper div.content_autos p.fad_price{float: right;}
+
+.juloawrapper div.descautos .content_autos,
+.adsmanager_table_description .descjob .content_job{
+	height: 100px;
+}
+.juloawrapper div.descautos .content_autos{	
+	float: right;
+	text-transform: capitalize;
+	width: 80%;
+}
+
+
+.more_fields .immo_price, 
+#yt_component .juloawrapper div.content_autos p.fad_price{
+	background: transparent;
+	border: 1px solid #f15b4d;
+	padding: 3px;
+}
+
+#yt_component .juloawrapper p a.align-right, .more_fields .immo_price{
+	float: right;
+}
+yt_component div.juloawrapper .content_autos p span.align-left,
+#yt_component .juloawrapper p a.align-right{
+	text-transform: none;
+}
+p.fad_price{margin: 0;}
+
+#content.com_adsmanager div.descautos div.content_autos div.wrap{
+	height: 90px;
+	width: 100%
+}
+
+#yt_component .descautos div.content_autos div.align-left{
+	float: left;
+	height: 80px;
+	width: 25%;
+}
+
+.immo_text{width: 80%;}
+
+.immo_area{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.intro-pic img{
+	height: auto;
+	margin-left: 15px;
+	max-height: 104px;
+	width: 100%;
+}
+
+#ad-container .desc p{
+	width: 300px;
+	margin-left: 15px;
+	margin-top: -32px;
+}
+
+#ad-container .desc p+p{
+	position: absolute;
+	bottom: 15px;
+	left: 155px;
+	width: 75%;
+}
+
+#yt_component div.juloawrapper table.adsmanager_inner_box td div{
+	height: 274px;
+	overflow: hidden;
+	padding-top: 5px;
+	margin-bottom: 30px;
+	width: 228px;
+	background: white;
+	border-radius: 7px;
+}
+
+h2.category_title_Real{
+	background-color: #880052;
+}
+
+h2.category_title_Alimentation{
+	background-color: #00562f;
+}
+
+#ad-container div.desc p a.align-right{
+	color: #1f1d1e;
+	text-decoration: underline;
+}
+
+h2.category_title_Annonces,
+h2.category_title_General
+{
+	background-color: #043345;
+}
+
+h2.category_title_Loisirs{
+	background-color: #d8020c;
+}
+
+h2.category_title_Jobs{
+	background-color: #490e00;
+}
+
+h2.category_title_Enseignement,
+h2.category_title_Education
+{
+	background-color: #01aef0;
+}
+
+h2.category_title_Alimentation,
+h2.category_title_Loisirs,
+h2.category_title_Annonces,
+h2.category_title_General,
+h2.category_title_Enseignement,
+h2.category_title_Education,
+h2.category_title_Real,
+h2.category_title_Jobs
+{
+	height: 45px;
+	font-size: 15px;
+	line-height: inherit;
+	margin-top: 5px;
+}
+
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box .adthumb p
+{
+	padding-left: 11px;
+	text-align: left;
+}
+
+#yt_component div.juloawrapper table.adsmanager_inner_box td div a:first-child{
+	height: 105px;
+	display: inline-block;
+	line-height: 103px;
+	width: auto;
+}
+
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Alimentation a,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Alimentation a:link,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Alimentation a:visited,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Loisirs a,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Loisirs a:link,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Loisirs a:visited,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Enseignement a,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Enseignement a:link,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Enseignement a:visited,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Annonces a,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Annonces a:link,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Annonces a:visited,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_General a,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_General a:link,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_General a:visited,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Education a,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Education a:link,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Education a:visited,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Real a,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Real a:link,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Real a:visited,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Jobs a,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Jobs a:link,
+#content #content_main #yt_component div.juloawrapper div.adsmanager_box_module table.adsmanager_inner_box h2.category_title_Jobs a:visited
+{
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+}
+.rubriques{
+	float: left;
+	width: 30%;
+}
+
+.rubriques ul li a,
+.rubriques ul li a:link,
+.rubriques ul li a:visited
+{
+	color: #434343;
+	background: url("../images/arrow-black.jpg") no-repeat left center;
+	padding-left: 19px;
+}
+
+
+#adshome .rubriques h2{
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+#adshome .rubriques .cat_title_Immobilier a,
+#adshome .rubriques .cat_title_Real a
+{
+	color: #8a2753;
+}
+
+#adshome .rubriques .cat_title_Emploi a,
+#adshome .rubriques .cat_title_Jobs a
+{
+	color: #a08921;
+}
+
+#adshome .rubriques .cat_title_Alimentation a,
+#adshome .rubriques .cat_title_Food  a
+{
+	color: #00592e;
+}
+#adshome .rubriques .cat_title_Loisirs a,
+#adshome .rubriques .cat_title_Hobbies a
+{
+	color: #da0301;
+}
+#adshome .rubriques .cat_title_Voyages a,
+#adshome .rubriques .cat_title_Travel a
+{
+	color: #fe880d;
+}
+#adshome .rubriques .cat_title_Annonces a,
+#adshome .rubriques .cat_title_General a
+{
+	color: #043345;
+}
+#adshome .rubriques .cat_title_Automobiles a,
+#adshome .rubriques .cat_title_Cars a
+{
+	color: #231f20;
+}
+
+#adshome .rubriques .cat_title_Enseignement a,
+#adshome .rubriques .cat_title_Education a
+{
+	color: #00ade9;
+}
+#contact_publisher{
+	background: #e7e7e7;
+	border: 1px solid #ccc;
+	margin-top: 25px;
+	padding: 5px 15px;
+	position: relative;
+}
+
+#contact_publisher .femail a{
+	background: #254980;
+	border-radius: 4px;
+	bottom: 10px;
+	display: inline-block;
+	padding: 5px 8px;
+	position: absolute;
+	right: 10px;
+	transition: all .15s ease-out;
+}
+
+#contact_publisher .femail a:hover{
+	background: #255580;
+}
+
+.juloawrapper #formcontainer #row_name,
+.juloawrapper #formcontainer #fad_siteweb,
+.juloawrapper #formcontainer #fad_companylabel,
+.juloawrapper #formcontainer #fad_wwwcompany,
+.juloawrapper #formcontainer #fad_societe,
+.juloawrapper #formcontainer #fad_categorieutilisateur,
+.juloawrapper #formcontainer #row_ad_customcategory
+{width: 60%;}
+
+.juloawrapper form#modsimplesearch-form .mod_adsmanager_search_field table.cbMulti{
+	margin: 0 auto;
+	width: 150px;
+}
+
+.juloawrapper form#modsimplesearch-form .mod_adsmanager_search_field table.cbMulti label{
+	margin-right: 20px;
+	margin-bottom: 0;
+}
+
+.juloawrapper form#modsimplesearch-form .mod_adsmanager_search_field table.cbMulti label{
+	margin-right: 20px;
+	margin-bottom: 0;
+}
+
+.juloawrapper form#modsimplesearch-form .mod_adsmanager_search_field table.cbMulti label span{
+	float: left;
+	display: block;
+	width: auto;
+}
+
+.juloawrapper form#modsimplesearch-form .mod_adsmanager_search_field table.cbMulti label input{
+	margin-top: 5px;
+	width: auto;
+}
+
+.hearder-ad{
+	height: 30px;
+	line-height: 30px;
+}
+
+.search-general-ads .juloawrapper{
+	margin: 0;
+}
+
+#slideshow .banner-search{
+	height: 420px;
+	overflow: hidden;
+}
+
+.search-general-ads #modsimplesearch-form{
+	height: 72px;
+	width: 70%;
+	margin: 0 auto;
+	padding: 17px 0;
+}
+
+.search-general-ads .control-group{
+	margin-top: -27px;
+}
+
+.search-general-ads #searchfield_ad_city{
+	width: 448px;
+}
+
+#modsimplesearch-form .search-field{
+	width: 315px;
+}
+
+.search-general-ads #searchfield_ad_city .control-group{
+	margin-top: 0;
+	margin-left: 55px;
+	width: 350px;
+}
+
+.search-general-ads #searchfield_ad_city .control-group .control-label{
+	float: left;
+	height: 37px;
+	margin: 0;
+	line-height: 37px;
+}
+
+#yt_component .table-striped > tbody > tr:nth-child(2n+1) {
+    background-color: transparent;
+}
+
+#ad-container{
+	background: white;
+	height: 180px;
+	border-radius: 8px;
+	padding: 5px 10px 3px 5px;
+	position: relative;
+}
+
+#yt_component .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border: none;
+}
+
+#content.general-ads-page #content_main h1{
+	color: #043345;
+	font-weight: bold;
+	border-left: 13px solid #043345;
+	background: transparent;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#slideshow .adsmanager_search_modulesearch-general-ads #searchfield_ad_city .control-group .control-label{color: #fff;}
+.search-general-ads .btn-primary{
+	background: #043345;
+	height: 37px;
+	padding: 5px 30px;
+	border-radius: 4px;
+	border: 1px solid #fff;
+}
+
+#slideshow .search-general-ads,
+#slideshow .search-autos-ads
+{
+	height: 71px;
+	margin-bottom: 15px;
+	z-index: 999;
+	position: relative;
+}
+
+#slideshow > .search-general-ads
+{
+	background: rgba(0,0,0,0.8);
+	margin-top: -116px;
+}
+
+#slideshow .search-autos-ads
+{
+	background: rgba(255, 222, 173,0.8);
+	margin-top: -71px;
+}
+
+#slideshow .search-autos-ads div.juloawrapper{
+	margin-top: 0;
+}
+
+.search-general-ads #fad_city{
+	height: 37px;
+	width: 274px;
+}
+
+.hearder-ad h4{
+	float: left;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+
+.hearder-ad p.location{
+	height: 91px !important;
+	line-height: normal !important;
+	padding-right: 0;
+	padding-top: 25px;
+	text-align: center;
+	width: 150px;
+	position: absolute;
+	right: 205px;
+	top: 44px;
+}
+
+.general-ads-page #content_main #ad-container .hearder-ad p.location{right: 25px;}
+
+.hearder-ad p.location, .hearder-ad h4 a, .hearder-ad h4{
+	height: 30px;
+	line-height: 30px;
+}
+.hearder-ad h4 a{
+	display: block;	
+}
+.hearder-ad h4 a, .hearder-ad p.location{color: #00b1ee;}
+#content_main .juloawrapper .adsmanager_table h4 a:hover{color: #ff9900;}
+
+#content .com_adsmanager div.descjob{
+	color: #eee;
+	padding-top: 6px;
+	padding-left: 10px;
+}
+.adsmanager_table_description p span.adsmanager-cat{padding-left: 15px;}
+#content_main .juloawrapper .adsmanager_table_description div.desc p span.align-left,
+.adsmanager_table_description p span.adsmanager-cat{
+	font-size: 10px;
+	font-weight: bold;
+}
+
+#header_autos{
+	background: #4c9ed9;
+	float: none;
+	height: 26px;
+	line-height: 26px;
+	margin-bottom: 6px;
+	padding: 0 8px;
+}
+
+#header_autos h4{
+	margin: 0;
+	width: auto;
+}
+
+#header_autos p{
+	float: right;
+	padding-left: 45px;
+	color: #eee;
+	margin: 0;
+	width: auto;
+}
+
+#header_autos h4,
+.juloawrapper #formcontainer #row_ad_marque,
+.juloawrapper #formcontainer #row_ad_modele, 
+.juloawrapper #formcontainer #row_ad_annee,
+.juloawrapper #formcontainer #row_ad_state,
+.juloawrapper #formcontainer #row_ad_carburant,
+.juloawrapper #formcontainer #row_ad_transmission,
+.juloawrapper #formcontainer #row_ad_kilom,
+.juloawrapper #formcontainer #row_ad_nbdoors,
+.juloawrapper #formcontainer #row_ad_typevoiture,
+.juloawrapper #formcontainer #row_ad_power
+{
+	float: left;
+}
+.juloawrapper #formcontainer #row_ad_marque,
+.juloawrapper #formcontainer #row_ad_modele, 
+.juloawrapper #formcontainer #row_ad_annee
+{
+	margin-right: 10%;
+}
+
+.juloawrapper #formcontainer #row_ad_text{margin-bottom: 45px;}
+
+.juloawrapper #formcontainer #row_ad_marque,
+.juloawrapper #formcontainer #row_ad_modele, 
+.juloawrapper #formcontainer #row_ad_annee,
+.juloawrapper #formcontainer #row_ad_power,
+.juloawrapper #formcontainer #row_ad_carburant,
+.juloawrapper #formcontainer #row_ad_transmission,
+.juloawrapper #formcontainer #row_ad_kilom,
+.juloawrapper #formcontainer #row_ad_nbdoors,
+.juloawrapper #formcontainer #row_ad_typevoiture
+{
+	height: 85px;
+}
+
+.juloawrapper #formcontainer #row_ad_state,
+.juloawrapper #formcontainer #row_ad_power,
+.juloawrapper #formcontainer #row_ad_carburant,
+.juloawrapper #formcontainer #row_ad_transmission,
+.juloawrapper #formcontainer #row_ad_kilom,
+.juloawrapper #formcontainer #row_ad_nbdoors
+{	
+	margin: 0 5%; 
+}
+
+.juloawrapper #formcontainer #row_ad_headline{width: 60%;}
+.juloawrapper #formcontainer #row_ad_phone{width: 150px;}
+.juloawrapper #formcontainer #row_ad_marque{width: 180px;}
+.juloawrapper #formcontainer #row_ad_modele{width: 280px;}
+.juloawrapper #formcontainer #row_ad_annee{width: 100px;}
+.juloawrapper #formcontainer #row_ad_state{width: 175px;}
+.juloawrapper #formcontainer #row_ad_carburant{width: 170px;}
+.juloawrapper #formcontainer #row_ad_transmission{width: 170px;}
+.juloawrapper #formcontainer #row_ad_kilom{width: 94px;}
+.juloawrapper #formcontainer #row_ad_nbdoors{width: 94px;}
+.juloawrapper #formcontainer #row_ad_typevoiture{width: 235px;}
+.juloawrapper #formcontainer #row_ad_city,
+.juloawrapper #formcontainer #row_ad_typeloisir,
+.juloawrapper #formcontainer #row_ad_hobbietype
+{width: 200px;}
+.juloawrapper #formcontainer #fad_lieudepart{width: 50%;}
+.juloawrapper #row_ad_places #fad_places{width: 135px;}
+.juloawrapper #formcontainer #row_ad_power{width: 90px;}
+.juloawrapper #formcontainer #row_ad_state{margin-top: 30px;}
+
+#formcontainer #row_ad_typevoiture.span12 div.control-group div.controls table td{width: 100px}
+#formcontainer #row_ad_typevoiture.span12 div.control-group div.controls table td label.radio label.error
+{
+	position: absolute;
+	top: 32px;
+	display: inline-block;
+	font-weight: bold;
+	width: 115px;
+}
+
+#main-top .intro-services h3{
+	color: #f5aa06;
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+#main-bottom .intro-services{
+	background: white;
+	margin-top: 20px;
+	border: 1px dashed #f5aa06;
+	text-align: center;
+	padding: 5px;
+}
+
+.camera_wrap .camera_pag .camera_pag_ul li {
+    background: #05a6f4 !important;
+}
+
+#slideshow .slideshowck.camera_wrap{
+	margin-bottom: 1px !important;
+}
+
+#slideshow .camera_pag{
+	margin: -60px auto 0 auto;
+	width: 100px;
+}
+#yt_wrapper #yt_component div.juloawrapper h1.contentheading{
+	color: #0183b5;
+	text-transform: uppercase;
+	font-size: 30px;
+	border-left: 11px solid #0183b5;
+	padding-left: 14px;
+	height: 33px;
+}
+
+label.codesecurity{
+	margin-right: 10px;
+}
+
+#codesecurity{
+	margin-left: 122px;
+}
+
+.searchtitle {
+	font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#yt_footer_top #moreaboutus .create-account a{
+	display: inline-block;
+    padding: 4px 8px;
+    border: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+    border-radius: 4px;
+	background: #f8901f;
+	color: white;
+	text-decoration: none;
+}
+
+#moreaboutus a,
+#moreaboutus a:link,
+#moreaboutus a:visited{
+	color: #fff;
+	text-decoration: underline;
+}
+
+#yt_breadcrumb{
+	padding: 7px 0;
+	margin-bottom: 30px;
+}
+
+#recaptcha_area.recaptchatable #recaptcha_response_field{
+	margin-top: 11px !important;
+}
+
+#banner-block{
+	background: url("../images/chat.jpg") no-repeat 0 0;
+	height: 400px;
+	position: relative;
+	margin-bottom: 30px;
+	overflow: hidden;
+	width: auto;
+}
+
+#banner-block .box{
+	position: absolute;
+	top: 160px;
+	left: 0;
+	background-color: rgba(217,53,174,.7);
+	color: #fff;
+	padding: 25px;
+}
+#banner-block .box h1{
+	font-size: 42px;
+	font-weight: 700;
+}
+
+#banner-block .box p{
+	font-size: 24px;
+	font-weight: 700;
+}
+
+#banner-block .box h1, #banner-block .box p{
+	font-weight: 700;
+}
+
+h1.adheadingtitle{
+	font-size: 17pt;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+	height: 42px;
+	line-height: 38px;
+	background: #e7e7e7;
+	padding-left: 8px;
+}
+
+h1.adheadingtitle span{
+	display: inline-block;
+	font-size: 35px;
+}
+
+#contact-divider {
+	height: 199px;
+	overflow: hidden;
+	margin-bottom: 65px;
+}
+
+#contact-divider > div{
+	float: left;
+	height: 200px;
+	padding-top: 100px;
+	text-align: center;
+	width: 33.33%;
+}
+
+#contact-divider .contact-phone{
+	background: url("../images/contact-phone-icon.png") no-repeat top center;
+}
+
+#contact-divider .contact-mail{
+	background: url("../images/contact-mail-icon.png") no-repeat top center;
+}
+
+#contact-divider .contact-situation{
+	background: url("../images/contact-geolocation-icon.png") no-repeat top center;
+}
+
+#main-top div.location-vehicule{
+	background: url("../images/home_vehicule.png") no-repeat top left;
+	padding-left: 335px;
+	padding-right: 0;
+	padding-top: 14px;
+	height: 190px;
+	overflow: hidden;
+}
+
+#bfPage1, #searchfield_ad_datedebut #ad_datedebut, #searchfield_ad_dateretour #ad_dateretour{
+	width: 80%;
+}
+.bfQuickMode .bfSubmitButton{
+	margin-right: 14%;
+}
+
+.bfQuickMode .recaptchatable #recaptcha_response_field{
+	margin-top: 11px !important;
+}
+
+#meganavigator .mega-content ul.subnavi li .item-link{
+	text-transform: none;
+}
+
+#yt_wrapper{
+	background: rgba(255,255,255,.9);
+}
+
+#yt_wrapper #content input, #yt_wrapper #content textarea {
+	border: 1px solid #a2aaff;
+}
+
+#femail, #fad_quartier, #fad_district {
+	width: 60%;
+}
+
+#fad_usrphone {
+	width: 120px;
+}
+
+.radiochoice {
+	height: 55px;
+}
+
+.pricefield, .radiochoice {
+	position: relative;
+}
+
+.pricefield .currency-symbol, .radiochoice label{
+	position: absolute;
+}
+
+.radiochoice label{
+	bottom: 0;
+    left: -20px;
+    font-weight: bold;
+}
+
+#row_ad_typedebien, #row_ad_nbpieces, #row_ad_meuble, 
+#row_ad_etatbatiment, #row_ad_superficie, #row_ad_typeofgood
+#row_ad_rooms, #row_ad_furnitures, #row_ad_batstatus, #row_ad_area
+{
+	width: 175px;
+}
+#row_ad_typedebien, #row_ad_nbpieces, #row_ad_meuble,
+#row_ad_typeofgood,#row_ad_rooms, #row_ad_furnitures
+{
+	float: left;
+	margin: 0 25px;
+}
+#fad_typedebien, 
+#fad_etatbatiment, 
+#fad_experience,
+#fad_nivetudes,
+#fad_experiencelevel,
+#fad_contracttype,
+#fad_studylevel,
+#fad_typecontract,
+#fad_nbpieces{width: 173px;}
+#fad_superficie{width: 135px;}
+#yt_component div.juloawrapper #formcontainer .btn-toolbar
+{display: none;}
+
+#left.col-sm-12 div.module.search_job.jobs-cat div.modcontent.clearfix div.juloawrapper form#modsimplesearch-form div.row-fluid.adsmanager_search_modulesearch_job.jobs-cat
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+#searchfield_ad_city
+{width: 100%;}
+
+#searchfield_ad_city .control-group
+{width: 70%;}
+
+#yt_component div.juloawrapper .control-group .checkbox label.error{
+    display: block;
+    font-weight: bold;
+    padding: 0;
+}
+#searchfield_ad_prixloyer, #searchfield_ad_superficie, #searchfield_ad_nbpieces
+#searchfield_ad_price, #searchfield_ad_rentprice, #searchfield_ad_area, 
+#searchfield_ad_rooms, #searchfield_ad_meuble, #searchfield_ad_furnitures
+{height: 75px;}
+
+#searchfield_ad_prixloyer .controls input, 
+#searchfield_ad_superficie .controls input, 
+#searchfield_ad_nbpieces .controls input,
+#searchfield_ad_price .controls input,
+#searchfield_ad_rentprice .controls input,
+#searchfield_ad_rooms .controls input,
+#searchfield_ad_area .controls input
+{
+	margin: 0 8px;
+	width: 60px;
+}
+
+#yt_component .adsmanager-details .page-header div.text-right div a+a{
+	margin-left: 7px;
+	margin-right: 3px;
+	border-left: 1px solid black;
+	padding-left: 7px;
+}
+#yt_wrapper section#content.com_adsmanager,
+.homepage #content {
+	padding-bottom: 50px;
+	background: url("../images/bottom-top.jpg") bottom center no-repeat #f2f2f2;
+	margin-bottom: 0;
+}
+
+#yt_footer_top #bottom1 {
+	background: url("../images/bottom-divider.jpg") bottom center no-repeat;
+}
+
+#yt_footer_top {
+	background: url("../images/bottom-bg.jpg") left center repeat-x;
+	margin-top: 0;
+	height: 414px;
+}
+
+#yt_footer_top {color: #fff;}
+
+#yt_footer_top .menu-footer .modcontent ul li {
+	background: url(../images/arrow-white.jpg) no-repeat left center;
+    margin-bottom: 4px;
+	padding-left: 14px;
+}
+
+#yt_footer_top .menu-footer .modcontent ul li a {color: #fff;}
+
+#yt_footer_top .menu-footer .modcontent ul li a:hover {
+    padding-left: 5px;
+    text-decoration: underline;
+}
+
+#yt_footer_bottom{
+	background: url("../images/footer-bg.jpg") left center repeat-x;
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+	overflow: hidden;
+	padding: 0;
+}
+
+#yt_footer_bottom a,
+#yt_footer_bottom a:link,
+#yt_footer_bottom a:visited
+{
+	color: #000;
+}
+
+.job_position .job_desc
+{
+	text-align: left;
+}

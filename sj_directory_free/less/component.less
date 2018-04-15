@@ -1,0 +1,426 @@
+/*******************************************
+***          YT Framework: less          ***
+*******************************************/
+
+// --* Component Joomla  *----------------------
+// ---------------------------------------------
+
+.catItemView {
+    padding: 0;
+    margin-bottom: 10px;
+    .catItemImageBlock {
+        padding: 0;
+        margin-bottom: 20px;
+        a:hover {
+            opacity: 0.75;
+        }
+    }
+    .main-item {
+        .catItemHeader {
+            .catItemTitle {
+                padding: 0;
+                //margin-bottom: 20px;
+                a {
+                    font-size: 20px;
+                    color: #222;
+                    text-transform: capitalize;
+                    &:hover {
+                        color: @linkColor2;
+                    }
+                }
+            }
+        }
+       
+        .catToolbar {
+            color: #999999;
+            margin: 0 -7px;
+            li {
+                float: left;
+                padding: 0 7px;
+                a {
+                    color: #999999;
+                    &:hover {
+                        color: @linkColor2;
+                    }
+                }
+            }
+        }
+    }
+    &.grid {
+        background-color: #fff;
+        padding: 20px 20px 20px;
+        margin-bottom: 30px;
+        .main-item {
+            .catItemHeader {
+                h3 {
+                    margin-bottom: 10px;
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .read-more {
+            font-size: 12px;
+            padding: 0 10px;
+            border-left: 2px solid @linkColor2;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: @linkColor2;
+
+            &:hover {
+                border-color: @linkColor;
+                color: @linkColor;
+            }
+        }
+    }
+}
+.item-page {
+    .content-box .itemLinks {
+        margin-top: 0;
+        .itemSocialBlock {
+            border-bottom: 0;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.itemRelated {
+    .related-items {
+        padding: 0 10px;
+        .owl-stage-outer {
+            .owl-stage {
+                .owl-item {
+                    li {
+                        padding: 0 10px;
+                        .img-fulltext {
+                            margin: 0 0 20px;
+                        }
+                        .content {
+                            h3 {
+                                a {
+                                    text-transform: capitalize;
+                                    color: #333;
+                                    font-size: 14px;
+                                    &:hover {
+                                        color: @linkColor2;
+                                    }
+                                }
+                            }
+                            .related-item-info {
+                                display: inline-block;
+                                vertical-align: top;
+                                width: 100%;
+                                .related-item-date,
+                                .related-item-author {
+                                    float: left;
+                                    font-size: 12px;
+                                    color: #999;
+                                    margin-bottom: 5px;
+                                }
+                                .related-item-author {
+                                    padding: 0 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#yt_component {
+    #xmap, #user-registration, .tag-category, .search, .finder, .categories-list {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    .wrap-login {
+        padding: 30px !important;
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 50px;
+        width: 400px;
+        max-width: 100%;
+        margin: 0 auto 50px;
+        box-shadow: 0 0 6px #989898;
+        #remember-lbl {
+            cursor: pointer;
+        }
+        .form-horizontal {
+            .well {
+                padding-top: 0;
+                input.required {
+                    width: 100%;
+                }
+                .btn {
+                    width: 100%;
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+    #josForm {
+        padding: 30px !important;
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 50px;
+        width: 750px;
+        max-width: 100%;
+        margin: 0 auto 50px;
+        box-shadow: 0 0 6px #989898;
+        .k2AccountPage {
+            padding-bottom: 0;
+        }
+        .admintable_register {
+            .form-register {
+                label {
+                    display: block;
+                    color: #222;
+                    .colorR {
+                        color: #FF0000;
+                    }
+                }
+                .ipt-form {
+                    margin-bottom: 20px;
+                    input {
+                        width: 100%;
+                    }
+                }
+                .check-gender {
+                    .controls {
+                        input {
+                            position: static;
+                        }
+                    }
+                }
+                .upload-image {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    .tag-category {
+        .item  {
+            margin-bottom: 30px;
+            .wrap-article {
+                .article-img {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+
+// 2.Search
+// ---------------------------------------------------------
+// Search Component
+.search{
+    #searchForm{
+       .searchintro{margin: 15px 0;}
+       .phrases-box .controls .radio{margin: 10px 20px;}
+        .ordering-box {
+            select.inputbox {min-width: 120px;}
+        }
+       button.btn{padding: 8px 10px; height: 36px; margin: 0; background: @background1; border-radius: 0;
+           span {margin: 0;}
+           &:hover {background: @background2;}
+       }
+    }
+    .search-results{clear: both;
+        .result-category{display: none;}
+        .result-category,.result-text{padding: 0;margin: 0;}
+        .result-text{padding-bottom: 1em;margin-bottom: 1em; border-bottom: 1px solid @paginationBorder;}
+    }
+}
+
+// Smart Search Component
+.finder{
+    #search-form{
+        #finder-search{margin: 0;
+            #advanced-search{padding: 10px 0 0;
+                #finder-filter-window{
+                    ul{list-style: none;margin: 0;
+                        li {margin-bottom: 10px;
+                            label{width:150px;}
+                        }
+                    }
+                }
+            }
+            button.btn {height: 36px; background: @background1; border-radius: 0; border: none;
+                &:hover {background: @background2 !important;}
+            }
+            input.inputbox{
+                height: 36px;
+            }
+        }
+
+    }
+    #search-results{
+        #search-query-explained{margin: 1em 0;border-bottom: 3px solid @grayLighter;font-weight: bold;.box-shadow(inset 0 -1px 0 @inputBorder)}
+        ul.list-striped {margin: 0;list-style: none; padding: 0;
+            li{margin-bottom: 1em;padding-bottom: 1em;border-bottom: 1px solid #eee;
+                .result-url{color: @grayLight;}
+            }
+        }
+    }
+}
+
+// 3.Newsfeed
+// ---------------------------------------------------------
+.newsfeed-category,
+.contact-category{
+    select[multiple], select[size]{width: auto;}
+}
+.newsfeed {
+
+    ol{margin: 0;list-style: none;padding: 0;
+        li{ border-bottom: 1px dotted @inputBorder;padding: 20px 0;
+            a{color: @navbarText;font-weight: normal;}
+            .feed-item-description{ margin-top: 10px;overflow: hidden;
+                > img:first-child{ background: none repeat scroll 0 0 @white;border: 1px solid @grayLighter;margin: 0 0 10px 15px;padding: 5px;}
+            }
+
+        }
+    }
+}
+
+
+// 5.User Component
+// ---------------------------------------------------------
+h1.title{font-size: 180%;}
+h2.subtitle{font-size: 130%;}
+.profile .dl-horizontal dt {display: inline-block;}
+.profile{
+    .btn-toolbar{
+        float: none !important;
+        .btn-group{
+            .btn{
+                padding: 0;
+                margin: 0 0 20px;
+            }
+        }
+    }
+}
+// Login Form
+.view-login{
+    #system-message{width: 550px;margin: 0 auto;}
+    #content #yt_component{border: none;.box-shadow(none);}
+    .wrap-login{width: 550px;margin: 0 auto;padding: 1em 2em 2em;background: @white;border: 1px solid @inputBorder;box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+
+        .page-header{margin: -14px -28px 15px;padding: 10px 25px;background: @tableBackgroundHover;border-bottom: 1px solid @paginationBorder;
+            h1{margin: 0;}
+        }
+        .box-sizing(border-box);
+        .form-horizontal .control-group{float: left;width:50%;margin: 1em 0;}
+        .form-horizontal .control-label{float: none;}
+        .form-horizontal .controls input{width:180px;}
+        .other-link{overflow: hidden;
+            ul.yt-list{margin: 0 0 0 15px;
+                li{float: left;margin-right: 30px;
+                    a{font-size: 12px;color: @gray;
+                        &:hover{color: @linkColor;}
+                    }
+                }
+            }
+        }
+    }
+
+}
+.login{
+    .form-horizontal{margin-bottom: 0;}
+    .well{background: none;border: none;border-radius: 0;box-shadow: none;padding: 10px 0 0;margin: 0;
+        .control-label{
+            label{font-weight: bold;}
+        }
+        .controls{margin: 0;
+            .btn {
+                border-radius: 0;
+                &:hover {color: #fff;}
+            }
+        }
+    }
+}
+
+
+//Register
+.registration{
+    .page-header{margin: 0 0 15px;
+        h2{margin: 0;}
+    }
+    .form-horizontal .control-label{text-align: left;
+        label{font-weight: bold;}
+    }
+}
+.reset,.remind{
+    .control-label{.registration .form-horizontal .control-label();}
+}
+
+//edit
+.profile-edit {
+    .control-group {
+        .controls {
+            .chzn-done { margin-bottom: 10px; display: none !important;}
+            button.btn {
+                background: @background1;
+                &:hover {
+                    background: @background2;
+                }
+            }
+        }
+    }
+    .chzn-container {
+        margin-bottom: 0;
+        .chzn-single {
+            height: 32px; border-radius: 0;
+            background: #fff; box-shadow: none;
+            border: #ddd 1px solid;
+        }
+    }
+}
+
+// 6.Contact Component
+// ---------------------------------------------------------
+div.contact{
+    h3.jicons-text{font-size: 120%;}
+    ul.blank li,.contact-misc,form.box legend{color: @grayLight;}
+    .contact-image{width:50%;float: right;
+        img{padding: 5px;border: 1px solid @inputBorder;margin-top: 1em;.box-sizing(border-box);}
+    }
+    textarea, input{width:300px;}
+    textarea{height: 100px;}
+    .contact-address,.contact-contactinfo,.contact-miscinfo{margin-bottom: 2em;}
+
+    form.box {
+    fieldset{border: none;padding: 0;}
+    legend{padding: 0;font-size: 12px;}
+    }
+}
+.contact-ajax{
+    .el-control{margin-bottom: 10px; margin-top: 10px;
+    label{width: 100px;}
+    input{width: 200px;}
+    }
+}
+
+.related-items li{margin-bottom: 10px;}
+
+#system-message-container {
+    #system-message {
+        .alert {
+            margin: 30px 0 90px;
+            .close {
+                text-shadow: none;
+                color: #fff;
+                font-size: 20px;
+                opacity: 1;
+                &:hover {
+                    color: @linkColor2;
+                }
+            }      
+        }
+    }
+}

@@ -1,0 +1,50 @@
+#k2Container.itemListView .itemList .itemContainer .catItemView.listing .catItemImageBlock img {
+  width: 100%;
+}
+#k2Container.itemListView .itemList .itemContainer .catItemView.grid .catItemImageBlock img {
+  width: 100%;
+}
+.module.sj-contactht .pre-text h3.title {
+  margin-top: 90px;
+}
+.module.our-blog .k2ItemsBlock .list-item .item .item-img .moduleItemImage img {
+  width: 100%;
+}
+.ads-spotlight3 {
+  margin-top: 15%;
+}
+.sjtestimonial h3 {
+  margin-top: 80px;
+}
+.module.contact_home .contact-ajax .ctajax-wrap .ctajax-element .el-control.el-control-select::after {
+  width: 30px;
+}
+.module.smart-search #mod-finder-searchform #mod-finder-searchword {
+  padding-right: 50px;
+}
+.rtl .wellcome,
+.rtl .signature {
+  font-family: arial;
+}
+.rtl .module.smart-search #mod-finder-searchform #mod-finder-searchword {
+  padding-left: 50px;
+  padding-right: 0;
+}
+.rtl .article-header,
+.rtl h3.modtitle,
+.rtl .tab,
+.rtl h2.basicnews-title,
+.rtl .acd-header,
+.rtl h3.related-title,
+.rtl h3.related-item-title,
+.rtl .page-header,
+.rtl .carousel-caption h4,
+.rtl a.more,
+.rtl .bsn-wrap h2,
+.rtl .item-title {
+  font-family: "arial";
+}
+.rtl .module.best-sale .modcontent .vmproduct.best-sale .width100.center .spacer {
+  width: 99%;
+  display: none;
+}

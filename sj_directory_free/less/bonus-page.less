@@ -1,0 +1,722 @@
+/*******************************************
+***          YT Framework: less          ***
+*******************************************/
+
+// --* Bonus Pages Templates *------------------
+// ---------------------------------------------
+.fontsize_l{font-size: 18px;font-weight: 400;}
+.g-underline{font-size: 180%;font-weight: 400;}
+
+// 1.Page Join Now
+ul.c-step{list-style: none;margin: 0 auto 4em auto; counter-reset: section;display: table;position: relative;z-index: 1;padding: 0;
+    &:before{content: "";width:100%;height: 10px;background: #DEDEDE;
+        position: absolute;z-index: 2;left: 0;top: 50%;margin-top: -5px;
+        .border-radius(10px); .box-shadow(1px 1px 1px rgba(0,0,0,0.1) inset);
+    }
+    li{list-style: none;margin: 0 50px;padding-top: 50px;line-height: 25px;display: inline-block;position: relative;z-index: 3;text-align: center;
+        &:before,
+        &.active:before{
+               counter-increment:section; content: counter(section);
+               width:35px;height: 35px;line-height: 35px;
+               font-size: 20px;font-weight: 800;text-align: center;display: inline-block;
+               color: #fff;
+               .border-radius(3px);.box-shadow(~"0 1px 1px 0px rgba(0, 0, 0, 0.3) inset, 0 0 0 4px #DEDEDE");#gradient .vertical( #AAC3BF ,#719088);
+        }
+        &.active:before{#gradient .vertical(lighten(@linkColor, 10%),@linkColor);}
+        &.active{
+            h3{color: @linkColor;}
+        }
+        h3{margin: 10px 0 0;font-size: 16px;}
+        span{font-size: 13px;}
+    }
+}
+
+.table-underline{
+        thead{border-bottom: 2px solid #404040;font-size: 14px;  #gradient .vertical(#F5F5F5,#CCCCCC);}
+        tbody{
+          tr:hover{background: #FAFFED;}
+        }
+}
+
+// 2.Page About us
+.wrapper-about-page{
+    .content-box {
+        background-color: transparent;
+        .main-item {
+            padding: 0;
+            .itemBody {
+                padding: 0;
+                .page-about {
+                    .title-about {
+                        text-align: center;
+                        margin-bottom: 50px;
+                        h3 {
+                            font-size: 36px;
+                            text-transform: capitalize;
+                            color: #304045;
+                            .color_green {
+                                color: #86b817;
+                            }
+                        }
+                        .star {
+                            position: relative;
+                            display: inline-block;
+                            line-height: 14px;
+                            vertical-align: top;
+                            margin-bottom: 20px;
+                            &:before {
+                                content: "";
+                                display: inline-block;
+                                vertical-align: super;
+                                width: 50px;
+                                height: 1px;
+                                background-color: @linkColor2;
+                            }
+                            &:after {
+                                content: "";
+                                display: inline-block;
+                                vertical-align: super;
+                                width: 50px;
+                                height: 1px;
+                                background-color: @linkColor2;
+                            }
+                            .fa {
+                                font-size: 0;
+                                padding: 0 20px;
+                                &:before {
+                                    font-size: 20px;
+                                    color: @linkColor2;
+                                }
+                            }
+                        }
+                        .desc {
+                            color: #666;
+                        }
+                    }
+
+                    .about-top {
+                        display: inline-block;
+                        vertical-align: top;
+                        width: 100%;
+                        .content-about {
+
+                            .item-about-left,
+                            .item-about-center,
+                            .item-about-right {
+                                display: inline-block;
+                                vertical-align: top;
+                                width: 33.33%;
+                                float: left;
+                                .item-about {
+                                    display: inline-block;
+                                    vertical-align: top;
+                                    width: 100%;
+                                    margin: 75px 0;
+                                    .item-content {
+                                        overflow: hidden;
+                                    }
+                                    .item-icons {
+                                        overflow: hidden;
+                                        width: 50px;
+                                        height: 50px;
+                                        border-radius: 100%;
+                                        text-align: center;
+                                        line-height: 55px;
+                                        background-color: @linkColor2;
+                                        .fa {
+                                            font-size: 0;
+                                            &:before {
+                                                font-size: 20px;
+                                                color: #fff;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .item-about-left {
+                                .item-about {
+                                    .item-icons {
+                                        float: right;
+                                    }
+                                    .item-content {                                        
+                                        padding-right: 20px;
+                                        text-align: right;
+                                    }
+                                }
+                            }
+                            .item-about-right {
+                                .item-about {
+                                    .item-icons {
+                                        float: left;
+                                    }
+                                    .item-content {
+                                        padding-left: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .about-middle {
+                        background-color: #fff;
+                        position: relative;
+                        padding-top: 50px;
+                        display: inline-block;
+                        vertical-align: top;
+                        width: 100%;
+                        &:before {
+                            background-color: #fff;
+                            width: 1000px;
+                            position: absolute;
+                            top: 0;
+                            height: 100%;
+                            right: 100%;
+                            content: "";
+                        }
+                        &:after {
+                            background-color: #fff;
+                            width: 1000px;
+                            position: absolute;
+                            top: 0;
+                            height: 100%;
+                            left: 100%;
+                            content: "";
+                        }
+                        .our-svervices {
+                            .main-our-svervices {
+                                margin: 0 -15px;
+                                li {
+                                    float: left;
+                                    width: 33.333%;
+                                    margin-bottom: 50px;
+                                    padding: 0 15px;
+                                    .icons-services {
+                                        float: left;
+                                        width: 100px;
+                                        height: 100px;
+                                        line-height: 110px;
+                                        border-radius: 100%;
+                                        overflow: hidden;
+                                        text-align: center;
+                                        background-color: @linkColor2;
+                                        color: #fff;
+                                        .fa {
+                                            font-size: 0;
+                                            &:before {
+                                                font-size: 26px;
+                                            }
+                                        }
+                                    }
+                                    .item-services {
+                                        overflow: hidden;
+                                        padding-left: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .about-bottom {
+                        padding: 50px 0 30px;
+                        display: inline-block;
+                        vertical-align: top;
+                        width: 100%;
+                        .our-team {
+                            .main-our-team {
+                                margin: 0 -15px;
+                                li {
+                                    width: 25%;
+                                    float: left;
+                                    padding: 0 15px;
+                                    text-align: center;
+                                    .item-thumbnail {
+                                        margin-bottom: 20px;
+                                    }
+                                    .item-team {
+                                        h3 {
+                                            text-transform: uppercase;
+                                        }
+                                        .item-position {
+                                            font-size: 12px;
+                                            color: #999;
+                                            margin-bottom: 15px;
+                                        }
+                                        .item-description {
+                                            margin-bottom: 20px;
+                                        }
+                                        .item-social {
+                                            a {
+                                                display: inline-block;
+                                                vertical-align: top;
+                                                color: #999999;
+                                                padding: 0 10px;
+                                                .fa {
+                                                    font-size: 0;
+                                                    &:before {
+                                                        font-size: 18px;
+                                                    }
+                                                }
+                                                &:hover {
+                                                    color: @linkColor2;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Page contact
+.wrapper-contact {
+    .content-box {
+        background-color: transparent;
+        margin-bottom: 0;
+        .main-item {
+            padding: 0;
+            .itemBody {
+                padding: 0;
+            }
+        }
+    }
+}
+.page-contact{
+    .main-content {
+        .contact-form {
+            h3 {
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+            .contact-ajax {
+                .ctajax-wrap {
+                    margin: 0 -15px;
+                    width: auto;
+                    .ctajax-element {
+                        padding: 0 15px;
+                        &.contact-form {
+                            width: 66.666%;
+                            .el-inner {
+                                padding: 0;
+                                .el-form {
+                                    .el-ctajax-form {
+                                        .el-control {
+                                            position: relative;
+                                            input, textarea {
+                                                width: 100%;
+                                            }
+                                            #cainput_submit {
+                                                .border-radius(0);
+                                                background-color: @linkColor2 !important;
+                                                background: -webkit-gradient(linear, 0 0, 0 bottom, from(@linkColor2), to(@linkColor2));
+                                                background: -webkit-linear-gradient(@linkColor2, @linkColor2);
+                                                background: -moz-linear-gradient(@linkColor2, @linkColor2);
+                                                background: -ms-linear-gradient(@linkColor2, @linkColor2);
+                                                background: -o-linear-gradient(@linkColor2, @linkColor2);
+                                                background: linear-gradient(@linkColor2, @linkColor2);
+                                                max-width: 210px;
+                                                width: 100%;
+                                                height: 48px;
+                                                line-height: 48px;
+                                                padding: 0;
+                                                border: 0;
+                                                text-transform: uppercase;
+                                                border-bottom: 2px solid;
+                                                border-color: darken(@linkColor2, 10%);
+                                                &:hover {
+                                                    background-color: @linkColor;
+                                                    background: -webkit-gradient(linear, 0 0, 0 bottom, from(@linkColor), to(@linkColor));
+                                                    background: -webkit-linear-gradient(@linkColor, @linkColor);
+                                                    background: -moz-linear-gradient(@linkColor, @linkColor);
+                                                    background: -ms-linear-gradient(@linkColor, @linkColor);
+                                                    background: -o-linear-gradient(@linkColor, @linkColor);
+                                                    background: linear-gradient(@linkColor, @linkColor);
+                                                    border-color: darken(@linkColor, 10%);
+                                                }
+                                            }
+                                            #cainput_message {
+                                                min-height: 100px;
+                                            }
+                                            &:first-child {
+                                                margin-top: 0;
+                                            }
+                                            .ca-tooltip,
+                                            .el-ok {
+                                                position: absolute;
+                                                top: 4px;
+                                                right: 10px;
+                                                .rtl & {
+                                                    right: auto;
+                                                    left: 10px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &.contact-info {
+                            width: 33.333%;
+                            text-align: center;
+                            .el-inner {
+                                background-color: #fff;
+                                padding: 0;
+                                .el-info-contact {
+                                    padding: 30px 40px;
+                                    .info-cf {
+                                        margin: 0 0 25px;
+                                        padding-bottom: 25px;
+                                        border-bottom: 1px solid #ddd;
+                                        .fa {
+                                            display: block;
+                                            float: none;
+                                            margin: 0 0 15px;
+                                            font-size: 26px;
+                                            color: #999999;
+                                        }
+                                        h3 {
+                                            font-size: 14px;
+                                        }
+                                        a {
+                                            color: #999;
+                                            &:hover {
+                                                color: @linkColor2;
+                                            }
+                                        }
+                                        &:last-child {
+                                            margin-bottom: 0;
+                                            padding-bottom: 0;
+                                            border-bottom: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}    
+
+// 3.Page Services
+#g-pageservices{
+       .features {
+          .fa{
+              background: #777;height: 75px;width:75px;text-align: center;line-height: 67px;border: 3px solid #eee;
+              .border-radius(10px);
+          }
+       }
+       .yt-icon{float: left;}
+       .col-sm-4{margin: 1em 0;}
+       .our {h3 {margin-top: 1em;}}
+
+     article{
+          h3{font-weight: normal;}
+          a.detail{
+              &:after{content: "\f105";font-family: FontAwesome;display: inline-block;color: #fff;background: @linkColor;margin: -3px 3px 0;height:14px; width:14px;line-height: 14px; font-size: 12px; text-align: center;.border-radius(14px);}
+              &:hover{
+                   &:after{color: #fff;}
+              }
+
+          }
+     }
+     h2{font-size: 180%;margin-bottom: 1em;}
+
+     h3 {
+
+         &.accordion-heading.active {color: @linkColor;}
+     }
+     hr{height: 5px;background: #eee;border-top-color: #ddd;margin: 3em 0;}
+     .testimonial-avatar{
+          [class^="icon-"], [class*=" icon-"]{border: none;}
+     }
+}
+
+// 4.Page Columns
+#g-pagecolumn{
+     hr{height: 5px;background: #eee;border-top-color: #ddd;margin: 4em 0;float: left;width: 100%;}
+}
+//5.Gallery
+.item-page {
+    .yt-gallery {
+        position: relative;
+        z-index: 0;
+        .gallery-list{
+              .item-gallery{
+                     position: relative;
+                     h4.item-gallery-title{display: none;}
+                     h3.item-gallery-title{
+                            position: absolute;
+                            top: 20%;
+                            left: 50%;
+                            .lib-tranlate-x();
+                            text-align: center;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            color: #fff;
+                            background: none;
+                            font-weight: bold;
+                            z-index: 6;
+                            opacity: 0;
+                     }
+                     .item-gallery-hover1{
+                            z-index: 4;
+                            background-color: transparent !important;
+                     }
+                     .image-overlay{
+                            background: @background1;
+                            opacity: 0;
+                            z-index: 2;
+                     }
+                     &:hover{
+                            h3.item-gallery-title{
+                                   opacity: 1;
+                            }
+                            .image-overlay{
+                                   opacity: 0.6;
+                            }
+                     }
+              }
+        }
+        
+        .yt-gallery-tabbed {
+            margin-bottom: 30px !important;
+            width: 100%;            
+            .tabnav {
+                margin: 0 -5px;
+                li {
+                    padding: 0 5px; margin: 5px auto;
+                    span {
+                        margin: 0; padding: 0 20px; border: #ebebeb 1px solid;
+                        font-size: 12px; font-weight: bold; text-transform: uppercase;
+                        border-radius: 5px; height: 42px; line-height: 42px; background: none;
+                        color: #222;
+                    }
+                    &.active {
+                        span {background: @background1; color: #fff; border-color: @linkColor;}
+                    }
+                }
+            }
+        }
+        .gallery-list {
+            margin: 0 -5px; width: auto;
+            li {
+                padding: 0 5px 10px;
+            }
+        }
+    }
+}
+
+// 6.Page What's new
+#g-pagewhatnew{
+       .yt-lightbox.image-none{padding: 3px;background: #fff;.box-shadow(0 0 5px rgba(0, 0, 0, 0.1));display: table;margin: 0 auto 10px;}
+        h3.title{margin-bottom: 1em;border-bottom: 1px solid #eee;padding-bottom: 5px;font-size: 180%;}
+       .yt-lightbox a  img{width: auto;}
+
+}
+.categories-list .collapse.in {width: 100%;}
+
+// 7. g-joinnow
+
+#g-joinnow{
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		div.yt-tabs.boxed.style-red ul.nav-tabs li.active{
+			background: @background1;
+       }
+       .yt-pricing .style3.column .pricing-basic{
+              background: @background1;
+       }
+       .yt-pricing .style3.column .pricing-money{background: @background1;}
+       .yt-pricing .style3.column .pricing-basic h2{border-color: darken(@linkColor, 10%);}
+       .yt-pricing .style3.column .pricing-money h1{
+              background: darken(@background1, 20%);
+       }
+       .yt-pricing .style3.column .pricing-bottom a{background: @background1}
+       ul li.yt-accordion-group h3.accordion-heading.active{
+              color: @linkColor !important;
+       }
+       ul li.yt-accordion-group .active i{color: @linkColor !important}
+}
+
+
+//Page Coming Soon
+.comingsoon {
+    //position: static; left: 0; top: 0; right: 0; bottom: 0; display: block; width: 100%; height: 100%;
+    background: url(../images/bg/bg-comingsoon.jpg) center center no-repeat; background-size: cover;
+    #yt_comingsoon {
+        margin: 15% 0; padding: 60px 0; text-align: center; color: #fff;
+        .comingsoon-title { font-size: 46px; text-transform: uppercase; padding: 0 30px;}
+        .comingsoon-content {
+              display: block;
+              font-size: 60px;
+              font-weight: bold;
+              margin: 0 0 75px;
+              padding: 0 30px;
+              text-transform: uppercase;
+       }
+        .comingsoon-countdown {
+            > div {display: inline-block; width: 94px; height: 94px; color: #ffc513 ; border: #ffc513 2px solid; border-radius: 50%; margin: 0 30px 20px;
+                .number {font-weight: bold; font-size: 36px; display: block; margin: 25px 0 10px;}
+                .string {font-size: 16px;}
+            }
+        }
+    }
+}
+
+// faq-page
+#faq-page{
+	.header{
+		padding: 0 0 20px;
+		margin: 0 0 20px;
+		border-bottom: 1px solid #ebebeb;
+		h3.title{
+			font-size: 24px;
+			color: #222;
+		}
+	}
+	.content{
+		.yt-accordion{
+			.yt-accordion-group{
+				margin: 0 0 15px;
+				.accordion-heading{
+					background: #f6f6f6 !important;
+                    font-size: 12px !important;
+                    text-transform: uppercase;
+                    border: 1px solid #ebebeb;
+                    padding: 25px 15px;
+                    color: #666 !important;
+                    i{
+                     margin: 0 10px;
+                     color: #222 !important;
+                    }
+                    &.active{
+                     color: #222 !important;
+                    }
+				}
+				.yt-accordion-inner{
+					
+				}
+			}
+		}
+	}
+}
+//Others
+
+.pager.pagenav {
+    padding: 20px;
+    li {
+        a {
+            background: #ebebeb; border-color: darken(#ebebeb, 10%); color: #b7b7b7;
+            &:hover {
+                background: @background1; border-color: darken(@linkColor, 10%); color: #fff;
+            }
+        }
+        >a, >span {
+            border-radius: 0;
+            background-color: @linkColor2;
+            color: #fff;
+            border: 0;
+            padding: 7px 30px;
+        }
+    }
+}
+
+.btn-hamburger {
+    padding: 0; background: none; color: #252525; font-size: 24px; position: relative; z-index: 10;
+    &:hover {color: @linkColor; background: none;}
+}
+
+// Support RTL Languages
+// --------------------------------------------------
+.rtl{
+       #g-pageportfolio [class*="span"] .port-item-content a.detail:after,
+       #g-pageservices article a.detail:after{content: "\f104";}
+
+       //Join Now
+       ul.yt-accordion li.accordion-group h3.accordion-heading .fa-plus-circle {margin-right: 0px;margin-left: 5px;}
+    #g-joinnow {
+        ul.c-step {margin: 0 auto;}
+    }
+    #g-pageservices .yt-icon {float: right; margin: 0px 0px 1em 1em;}
+    div.yt-tabs ul.nav-tabs li {margin-right: 0; margin-left: 5px;}
+    .item-page {
+        .yt-gallery {
+            .yt-gallery-tabbed {
+                .tabnav {
+                    li {
+                        float: right;
+                        margin: 0px 0px 5px 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    #g-about {
+        &.style1 {
+            .block-main-content {text-align: right;}
+            .yt-content-slider, .client-say {direction: ltr;}
+        }
+
+        &.style2 { direction: ltr;
+            .yt-member-icons {direction: rtl;}
+        }
+
+        &.style3 {
+            direction: ltr;
+            .block-main-content, .our-skills {text-align: right;}
+        }
+
+        &.style5 {
+            .yt-section {
+                .yt-section-content {
+                    .block-main-content {
+                        .title {
+                            h3 {padding: 0 0 0 15px;}
+                        }
+                        img.pull-left {margin: 0 0 0 30px;}
+                    }
+                    .block-list-content {
+                        .title {
+                            h3 {padding: 0 0 0 15px;}
+                        }
+                    }
+                    .block-middle {
+                        .row {
+                            .yt-member {
+                                .yt-member-photo {
+                                    float: right; margin: 0 0 0 20px;
+                                }
+                                .yt-member-info {text-align: right !important; float: right;}
+                                .yt-member-icons {text-align: right !important;.yt-memeber-icon {margin: 0 0 0 6px;}}
+                            }
+                        }
+                    }
+                    .client-say {
+                        direction: ltr;
+                        div {
+                            h3 {float: right;}
+                            .owl-controls {right: auto; left: 45px;}
+                            .all_testimonial {
+                                .content_testimon {
+                                    text-align: right !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media ( max-width: 991px ) {
+    ul.c-step{
+        li{margin: 0 10px;}
+    }
+}

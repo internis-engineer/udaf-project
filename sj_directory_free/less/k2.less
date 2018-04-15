@@ -1,0 +1,529 @@
+#k2Container {
+    &.itemListView {
+        .itemList {
+            margin: 0 -15px;
+            display: flex;
+            flex-wrap: wrap;
+            .itemContainer {
+                padding: 0 15px;
+                .catItemView {
+                    padding: 0;
+                    margin-bottom: 10px;
+                    .catItemImageBlock {
+                        padding: 0;
+                        margin-bottom: 20px;
+                    }
+                    .main-item {
+                        .catItemHeader {
+                            float: left;
+                            .rtl & {
+                                float: right;
+                            }
+                            .catItemTitle {
+                                padding: 0;
+                                margin-bottom: 15px;
+                                a {
+                                    font-size: 20px;
+                                    color: #222;
+                                    text-transform: capitalize;
+                                    &:hover {
+                                        color: @linkColor2;
+                                    }
+                                }
+                            }
+                        }
+                        .catItemRatingBlock {
+                            .lib-catItemRatingBlock();
+                            float: right;
+                            padding: 0;
+                            margin: 0;
+                            .rtl & {
+                                float: left;
+                            }
+                            >span {
+                                font-size: 0;
+                            }
+                            .itemRatingForm {
+                                padding: 0;
+                                .itemRatingLog {
+                                    font-size: 0;
+                                }
+                            }
+                        }
+                        .catToolbar {
+                            color: #999999;
+                            margin: 0 -7px;
+                            li {
+                                float: left;
+                                padding: 0 7px;
+                                a {
+                                    color: #999999;
+                                    &:hover {
+                                        color: @linkColor2;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.grid {
+                        background-color: #fff;
+                        padding: 20px 20px 10px;
+                        margin-bottom: 30px;
+                        .main-item {
+                            .catItemHeader {
+                                h3 {
+                                    margin-bottom: 5px;
+                                    a {
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                            .catItemBody {
+                                .read-more {
+                                    font-size: 12px;
+                                    padding-left: 10px;
+                                    border-left: 2px solid @linkColor2;
+                                    text-transform: uppercase;
+                                    font-weight: bold;
+                                    color: @linkColor2;
+                                    &:hover {
+                                        border-color: @linkColor;
+                                        color: @linkColor;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.searchItem {
+                        .main-item {
+                            .catItemHeader  {
+                                width: 100%;
+                                .local{
+                                    font-size: 12px;
+                                    color: #999;
+                                    text-transform: none;
+                                    i{color: @linkColor2;}
+                                }
+                                .rate-comment {
+                                    padding-top: 15px;
+                                    margin-top: 15px;
+                                    border-top: 1px solid #ebebeb;
+                                    display: inline-block;
+                                    width: 100%;
+                                    .itemRatingBlock{
+                                        .lib-catItemRatingBlock();
+                                    }
+                                    .icomments{
+                                        float: right;
+                                        color: #999;
+                                        font-size: 12px;
+                                        a{color: #999;
+                                            &:hover{
+                                                color: @linkColor2;
+                                            }
+                                        }
+                                        .fa {
+                                            margin: 0 3px;
+                                        }
+                                    }
+                                }
+                            } 
+                        }
+                    }
+                }
+            }
+            &.itemListSearch {
+                
+            }
+            &.listDirectory {
+                .rate-comment {
+                    padding-top: 15px;
+                    margin-top: 15px;
+                    border-top: 1px solid #ebebeb;
+                    display: inline-block;
+                    width: 100%;
+                    .catItemRatingBlock {
+                        float: left !important;
+                    }
+                    .icomments{
+                        float: right;
+                        color: #999;
+                        font-size: 12px;
+                        a{color: #999;
+                            &:hover{
+                                color: @linkColor2;
+                            }
+                        }
+                        .fa {
+                            margin: 0 3px;
+                        }
+                    }
+                }
+            }
+        }       
+    }
+    /*end .itemListView*/
+
+    &.itemView {        
+        .itemImageBlock {
+            padding: 0;
+            margin: 0;
+            .itemImage {
+                margin: 0;
+            }
+        }       
+        
+        .itemAuthorBlock {
+            background-color: transparent;
+            border: 0;
+            padding: 0 20px 25px;
+            .itemAuthorAvatar {
+                padding: 0;
+                margin: 0 20px 5px 0;
+            }
+            .itemAuthorName {
+                font-size: 14px;
+                a {
+                    color: #222;
+                    &:hover {
+                        color: @linkColor2;
+                    }
+                }
+            }
+        }
+         
+        .k2_Comments {
+            .itemComments {
+                background-color: transparent;
+                border: 0;
+                padding: 0;
+                .global-title-module {
+                    margin-bottom: 0;
+                    .itemCommentsTitle {
+                        margin-bottom: 0;
+                    }
+                }
+                .itemCommentsPagination {
+                    margin: 0;
+                    padding: 0;
+                }
+                .itemCommentsList {
+                    padding: 0 20px;
+                    margin: 0;
+                    li {
+                        padding: 30px 0;
+                        margin: 0;
+                        .c-avatar  {
+                            display: inline-block;
+                            vertical-align: top;
+                            float: left;
+                            margin-right: 20px;
+                            img {
+                                margin: 0;
+                                padding: 0;
+                            }
+                        }
+                        .c-content {
+                            overflow: hidden;
+                            .commentAuthorName, .commentAuthorName a {
+                                color: #222;
+                            }
+                            .commentAuthorName a:hover  {
+                                color: @linkColor;
+                            }
+                            .comment_Date {
+                                color: #999999;
+                                font-weight: bold;
+                                padding: 0 10px;
+                                font-size: 12px;
+                            }
+                            .commentToolbar {
+                                text-align: right;
+                                a {
+                                    color: #ff4220;
+                                    text-decoration: none;
+                                    font-size: 12px;
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }                        
+                    }
+                }
+                .itemCommentsForm {
+                    padding: 20px 20px;
+                    .form-validate {
+                        .list-input {
+                            margin: 0 -10px;
+                            li {
+                                margin: 10px 0;
+                                padding: 0 10px;
+                            }
+                        }
+                        #submitCommentButton {
+                            margin-top: 10px;
+                            text-transform: uppercase;
+                            color: #fff;
+                            background-color: @linkColor2;
+                            border-radius: 0;
+                            line-height: 43px;
+                            height: 45px;
+                            padding: 0 50px;
+                            font-size: 14px;
+                            &:hover {
+                                background-color: @linkColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*end .itemView*/
+
+    &.userView {
+        .userBlock {
+            img {
+                margin: 0 8px;
+                .rtl & {
+                    float: right;
+                }
+            }
+        }
+        .userItemList {
+            .userItemView {
+                margin-bottom: 10px;
+                .userItemBody {
+                    padding: 0;
+                    .userItemImageBlock {
+                        margin-bottom: 20px;
+                    }
+                    .userItemHeaders {
+                        display: inline-block;
+                        vertical-align: top;
+                        width: 100%;
+                        .userItemTitle {
+                            margin-bottom: 20px;
+                            a {
+                                font-size: 20px;
+                                color: #222;
+                                text-transform: capitalize;
+                                &:hover {
+                                    color: @linkColor2;
+                                }
+                            }
+                        }
+                        .catToolbar {
+                            margin-bottom: 10px;
+                            color: #999;
+                            margin: 0 -10px 10px;
+                            display: inline-block;
+                            vertical-align: top;
+                            li {
+                                float: left;
+                                padding: 0 10px;
+                                a {
+                                    color: #999;
+                                    &:hover {
+                                        color: @linkColor2;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .userItemIntroText {
+                        display: inline-block;
+                        vertical-align: top;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }   /*end .userView*/
+}   /*end #k2Container*/
+
+.content-box {
+    background-color: #fff;
+    margin-bottom: 30px;
+    .main-item {
+        padding: 20px;
+        .itemHeader {
+            margin-bottom: 15px;
+            .itemTitle {
+                padding: 0;
+                font-size: 20px;
+                text-transform: capitalize;
+            }
+        }
+        .itemBody {
+            padding-bottom: 0;
+           .itemIntroText {
+                font-size: 14px;
+                font-weight: normal;
+                padding: 0;
+           } 
+           .itemFullText {
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #ddd;
+           }
+           .itemExtraFields {
+                padding: 0;
+                margin: 0;
+                border: 1px solid #ddd;
+                h3 {
+                    padding: 14px 20px;
+                    text-transform: uppercase;
+                    background-color: #f2f2f2;
+                    border-bottom: 1px solid #ddd;
+                }
+                li {
+                    padding: 0;
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 100%;
+                    span {
+                        padding: 6px 20px;
+                        display: inline-block;
+                        vertical-align: top;
+                        margin: 0 auto;
+
+                    }
+                    .itemExtraFieldsLabel {
+                        border-right: 1px solid #ddd;
+                        width: 26%;
+                    }
+                    .itemExtraFieldsValue {
+                        width: 74%;
+                    }
+                    &.odd {
+                        background-color: #f7f7f7;
+                    }
+                }
+           }
+        }
+
+    }
+    .itemLinks {
+        padding: 0 20px;
+        margin: 0;
+        .itemTagsBlock {
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ddd;
+            span {
+                font-weight: normal;
+                display: inline-block;
+            }
+            .itemTags {
+                li {
+                    a {
+                        color: #85b816;
+                        &:before {
+                            display: none;
+                        }
+                        &:hover {
+                            color: @linkColor2;
+                        }
+                    }
+                }
+            }
+        }            
+        .itemSocialBlock {
+            display: inline-block;
+            vertical-align: top;
+            margin-bottom: 25px;
+            border-bottom: 1px solid #ddd;
+            width: 100%;
+            padding-bottom: 25px;
+            .post_social {
+                margin: 0 -5px;
+                .icons-social {
+                    margin: 5px;
+                    font-size: 12px;
+                    color: #fff;
+                    display: inline-block;
+                    vertical-align: top;
+                    float: left;
+                    height: 40px;
+                    line-height: 40px;
+                    background-color: #3b5997;
+                    padding: 0 20px;
+                    &.social-tw {
+                        background-color: #36b9ff;
+                    }
+                    &.social-gp {
+                        background-color: #fb7171;
+                    }
+                    &.social-lk {
+                        background-color: #0077b5;
+                    }
+                    &.social-pt {
+                        background-color: #b7071b;
+                    }
+                    &:hover {
+                        opacity: 0.75;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.componentheading {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#k2Container.k2AccountPage {
+    .admintable {
+        th, td {background: none; border: none;}
+        input {min-height: 32px; margin: 2px 0;}
+        .k2ProfileHeading { color: #252525; }
+        .key {padding-right: 10px;}
+        .controls {
+            input[type="radio"] {position: relative; min-height: inherit; margin: 0 2px;}
+        }
+    }
+    #yt_shorcodes {margin: 10px;}
+    .toggle-editor {display: inline-block; width: auto;}
+}
+
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+    margin: 0; padding: 0; width: auto; background: none;
+}
+
+.blog-featured  {
+    .item-title {
+        a {
+            font-size: 16px;
+            color: #222;
+            text-transform: capitalize;
+            &:hover {
+                color: @linkColor2;
+            }
+        }
+    }
+    .itemToolbar {
+        background-color: transparent;
+        padding: 0;
+        margin: 0 0 10px;
+        .list-toolbar {
+            text-align: initial;
+            margin: 0 -10px;
+            color: #999;
+            li {
+                padding: 0 10px;
+                a {
+                    color: #999;
+                    &:hover {
+                        color: @linkColor2;
+                    }
+                }
+            }
+        }
+    }
+
+}
